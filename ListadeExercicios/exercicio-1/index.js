@@ -5,7 +5,7 @@ function soma(a, b, c) {
   let somar = a + b;
   if (somar < c) {
     console.log(
-      `o total da soma entre A e B é: ${somar} sendo menor que o valor de C ${c} `
+      `o total da soma entre A e B é: ${somar} sendo menor que o valor de C: ${c} `
     );
   } else {
     console.log(`${somar}`);
