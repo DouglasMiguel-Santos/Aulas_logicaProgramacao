@@ -1,0 +1,14 @@
+body {
+  height: 100%;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+div {
+  height: 100px;
+  width: 300px;
+  background-color: blue;
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo interno horizontalmente */
+  align-items: center;
+}

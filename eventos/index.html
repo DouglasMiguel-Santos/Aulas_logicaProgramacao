@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprendendo JS</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body
+    onload="alert ('terminou de careegar')"
+    onresize="alert('houve um redimensionamento')"
+  >
+    <h1>Aprendendo javaScript</h1>
+    <p id="texto"></p>
+    <p>
+      <script>
+        document.write("<u>oi escrito com document.write</u>");
+      </script>
+    </p>
+    <select size="3" name="itens" id="itens" ondblclick="duploclick()">
+      <option value="1">valor 1</option>
+      <option value="2">valor 2</option>
+      <option value="3">valor 3</option>
+    </select>
+    <input
+      onkeypress="pressionada()"
+      onblur="onclik()"
+      onchange="mudou()"
+      onfocus="limpatexto()"
+      type="text"
+      id="campotexto"
+      style="margin: 20px"
+      placeholder="digite algo"
+      value="ex: ja vem com texto"
+    />
+
+    <div
+      id="eventosdemouse"
+      onmouseenter="ficavermelho()"
+      onmouseout="ficaazul()"
+      onmousemove="addtexto()"
+    ></div>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
